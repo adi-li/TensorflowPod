@@ -66,7 +66,7 @@ Pod::Spec.new do |s|
   #
 
   s.ios.framework  = "Accelerate"
-  s.ios.library = "libstdc++"
+  s.ios.library = "stdc++"
   s.ios.vendored_libraries = "lib/libtensorflow-core.a", "lib/libprotobuf-lite.a", "lib/libprotobuf.a"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
